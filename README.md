@@ -60,9 +60,8 @@ const winLose = new ScatterPlot("Toronto Team 2021 Win Rate", winLoseData, "Wins
 winLose.setLegendVisibility(true); // ScatterPlot by default has no legend, but we can enable it
 ```
 
+### Pie Chart
 ```javascript
-// sample pie chart
-
 const birdWatchData = [
     {
         Count: 50,
@@ -79,6 +78,7 @@ const pieChartDiv = document.querySelector('.pieChartDiv');
 // create the PieChart instance, resulting in the PieChart to be drawn within the parent element specified
 const pieChartExample = new PieChart("Bird Watching Data 2021", birdWatchData, "Count", "Name", pieChartDiv);
 ```
+There's a range of customization features provided by VisualsAplenty. Feel free to explore the documentation for what is best suited to your needs.
 
 Now, go out and create!
 
