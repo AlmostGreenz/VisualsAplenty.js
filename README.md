@@ -22,12 +22,12 @@ first we have to make sure you're good to go.</p>
 // here is a sample array of objects containing the data to be displayed
 const tvData = [
 {
-Show: "LOST",
-Count: 145
+    Show: "LOST",
+    Count: 145
 },
 {
-Show: "Sherlock",
-Count: 99,
+    Show: "Sherlock",
+    Count: 99,
 }
 ]
 
@@ -40,14 +40,14 @@ const favTVShow = new BarGraph("Favourite TV Show", tvData, "Count", "Show", tvT
 // sample scatter plot
 const winLoseData = [
 {
-Name: "Toronto Maple Leafs",
-Wins: 50,
-Losses: 80
+    Name: "Toronto Maple Leafs",
+    Wins: 50,
+    Losses: 80
 },
 {
-Name: "Toronto Raptors",
-Wins: 30,
-Losses: 90
+    Name: "Toronto Raptors",
+    Wins: 30,
+    Losses: 90
 }
 ]
 
@@ -61,12 +61,12 @@ winLose.setLegendVisibility(true); // ScatterPlot by default has no legend, but 
 // sample pie chart
 const birdWatchData = [
 {
-Count: 50,
-Name: "Sparrow"
+    Count: 50,
+    Name: "Sparrow"
 },
 {
-Count: 30,
-Name: "Falcon"
+    Count: 30,
+    Name: "Falcon"
 }
 ]
 
@@ -78,6 +78,7 @@ const pieChartExample = new PieChart("Bird Watching Data 2021", birdWatchData, "
 
 <p>Now, go out and create!</p>
 
+# Helpful Links:
 Documentation: https://ryanbgreen.ca/visualsaplenty/documentation
 
 Examples: https://ryanbgreen.ca/visualsaplenty/examples
